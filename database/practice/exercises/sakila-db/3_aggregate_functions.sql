@@ -1,0 +1,27 @@
+-- Retrieve all films with rental_rate > 2.99 **and** length < 90.
+-- Find all customers whose first name starts with `'M'` **or** `'A'`.
+-- List all films that are **not** rated `'R'`.
+-- Find all customers who live in *Texas* **and** have active = true.
+-- Retrieve the top 10 most recently added films using `ORDER BY film_id DESC LIMIT 10`.
+-- List 5 actors whose first names end with `'a'` using `LIMIT`.
+-- Find all staff whose email contains `'@sakilacustomer.org'`.
+-- Display all payments greater than `5.00` but less than `10.00`.
+-- List the 10 shortest films that have `'ACTION'` in their title.
+-- Find all inactive customers (`active = false`).
+-- Retrieve all rentals where the return date is still NULL.
+-- Display 10 addresses from countries **not** equal to `'United States'`.
+-- Find all films released after 2005 **and** rated `'PG'` or `'G'`.
+-- List all customers who have rented a film containing `'DOG'` in the title.
+-- Retrieve the 5 most expensive films (highest rental_rate) sorted descending.
+
+-- *(No GROUP BY or HAVING; only aggregates applied to the full result set.)*
+-- Count total number of films in the database.
+-- Find the average film length.
+-- Calculate the minimum and maximum rental rate.
+-- Count total number of customers.
+-- Find the sum of all payments ever made.
+-- Calculate the average payment amount.
+-- Find the total number of rentals.
+-- Find the earliest and latest rental dates.
+-- Compute the average replacement cost of all films with `rating = 'PG-13'`.
+-- Count how many films have length greater than 120.

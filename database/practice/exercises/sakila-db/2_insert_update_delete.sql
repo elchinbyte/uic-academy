@@ -1,0 +1,27 @@
+-- Insert a new customer named *Ali Karimov* living in the same city as *Mary Smith*.
+-- Add a new film titled *"THE UNKNOWN ENGINEER"* with length 120 and rental rate 3.99.
+-- Insert a new record into the `rental` table where *customer_id = 5* rents *inventory_id = 10* today.
+-- Duplicate the address of *Store 1* for a new staff member named *John White*.
+-- Insert 3 new actors: *Aisha Khan*, *Omar Malik*, and *Layla Noor*.
+-- Add a new category called *“Machine Learning”* to the `category` table.
+-- Add a new film in the *Machine Learning* category with rating `PG-13`.
+-- Insert a new staff record that uses the same store as *Mike Hillyer* but a different email.
+-- Insert a payment record for *customer_id = 8* for an amount of `5.99` with today’s date.
+-- Insert a new language *“Uzbek”* into the `language` table.
+
+-- Update *Ali Karimov’s* email address in the `customer` table.
+-- Increase all `rental_rate` values in the `film` table by `1.00` where the length > 150.
+-- Change the *Machine Learning* category name to *“Artificial Intelligence”*.
+-- Set `active = false` for customers who haven’t rented anything in the last 365 days.
+-- Update all films longer than 180 minutes to have a `special_feature` of `'Deleted Scenes'`.
+-- Reduce all payments greater than `10.00` by 10%.
+-- Set the `last_update` column of all rows in `inventory` to the current timestamp.
+-- Assign `store_id = 2` to all staff who currently belong to store 1.
+-- Update the rating of all films containing “LOVE” in their title to `PG`.
+-- Change *Omar Malik*’s last name to *Malyk*.
+
+-- Delete all payments where amount = 0.00.
+-- Remove all customers who have never made a payment.
+-- Delete all films with a rental duration of 0 (if any).
+-- Delete all addresses not linked to any staff, customer, or store.
+-- Delete the *Artificial Intelligence* category (after unlinking all films from it).
